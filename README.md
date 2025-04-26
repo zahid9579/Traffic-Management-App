@@ -1,12 +1,20 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+--- TRAFFIC MANAGEMENT APP ----
 
-Currently, two official plugins are available:
+📋 About the Project
+The Traffic Management App is a simple and interactive simulation of a traffic signal system.
+It visually demonstrates how traffic lights operate — cycling between Red (STOP), Green (GO), and Yellow (SLOW) signals — with countdown timers for each light! 🛑🟡🟢
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
 
-## Expanding the ESLint configuration
+Live countdown timer for each traffic light phase.
+Disabled (black-out) inactive signals to mimic real-world behavior.
+Fully responsive and minimal UI.
+Smooth automatic transition between lights (Red ➡️ Yellow ➡️ Green ➡️ Red).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Built With
+
+React.js (Vite Setup)
+TailwindCSS for styling
+
+
